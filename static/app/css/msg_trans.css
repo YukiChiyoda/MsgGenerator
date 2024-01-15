@@ -1,0 +1,79 @@
+.phone,
+.phone-bottom,
+.phone-top {
+    background-color: #fff
+}
+
+.phone {
+    border: 1px #ccc solid
+}
+
+.phone-top:after {
+    display: none
+}
+
+.msg-trans-icon1 {
+    background: url(../images/msg-trans-icon5.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 160px
+}
+
+.msg-trans-text1 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 115px
+}
+
+.msg-trans-money {
+    flex-direction: row;
+    display: flex;
+    font-size: 106px;
+    justify-content: center;
+    font-family: SansStdMedium
+}
+
+.msg-trans-money em {
+    font-size: 74px;
+    font-style: normal;
+    margin-top: 12px;
+    margin-right: 15px
+}
+
+.msg-trans-tips {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 500;
+    color: #576B95
+}
+
+.msg-trans-times {
+    margin: 0 96px;
+    border-top: 1px #E4E4E5 solid;
+    margin-top: 100px;
+    padding: 25px 0
+}
+
+.msg-trans-times p {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    line-height: 80px
+}
+
+.msg-trans-times em {
+    font-style: normal;
+    flex: 1;
+    color: grey
+}
+
+.msg-trans-times span {
+    color: #1A1A1A
+}
+
+.msg-trans-bottom {
+    text-align: center;
+    padding-bottom: 80px;
+    color: #566A93
+}
