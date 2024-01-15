@@ -1568,7 +1568,7 @@ fieldset[disabled] .radio-custom label {
 .msg-dialog-text {
     background: #fff;
     padding: 28px 38px 30px 38px;
-    font-size: 46px;
+    font-size: 48px; /* 默认48px，46px更符合原样式，但会影响导出时消息起始位置 */
     border-radius: 15px;
     margin-right: 140px;
     word-break: break-all;
