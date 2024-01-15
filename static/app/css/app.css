@@ -3,7 +3,7 @@
 body,
 html {
     height: 100%;
-    font-family: 'SF Pro', 'PingFang SC'
+    font-family: 'PingFang SC', 'SF Pro';
 }
 
 a:active,
@@ -66,7 +66,7 @@ ul {
     padding: 0
 }
 
-.flex-line{
+.flex-line {
     display: flex;
     flex-direction: row;
 }
@@ -1267,8 +1267,8 @@ fieldset[disabled] .radio-custom label {
 
 .phone-time {
     font-size: 45px;
+    font-weight: 600;
     flex: 1;
-    font-weight: 600
 }
 
 .phone-sigle {
@@ -1388,9 +1388,10 @@ fieldset[disabled] .radio-custom label {
 
 .phone-nav-center span {
     font-size: 51px;
+    font-weight: 550;
     display: flex;
     align-items: center;
-    font-weight: 500
+    letter-spacing: 1px;
 }
 
 .phone-nav-center span i {
@@ -1524,7 +1525,7 @@ fieldset[disabled] .radio-custom label {
     left: 0;
     right: 0;
     -webkit-overflow-scrolling: touch;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 
 .msg-content {
@@ -1575,7 +1576,8 @@ fieldset[disabled] .radio-custom label {
     display: inline-block;
     position: relative;
     line-height: normal;
-    min-height: 123px
+    min-height: 123px;
+    letter-spacing: 1px;
 }
 
 .msg-dialog-right .msg-dialog-text {
@@ -1777,10 +1779,20 @@ fieldset[disabled] .radio-custom label {
 .msg-dialog-trans-content div span {
     font-size: 48px;
     color: #fff;
-    margin-top: -9px;
+    margin-top: -8px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis
+}
+
+.msg-dialog-trans-content div > span {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.msg-dialog-redp-content div > span {
+    font-size: 46px;
 }
 
 .msg-dialog-trans-content div font {
@@ -1794,7 +1806,8 @@ fieldset[disabled] .radio-custom label {
 .msg-dialog-trans-bottom {
     height: 71px;
     align-items: center;
-    display: flex
+    display: flex;
+    letter-spacing: 0;
 }
 
 .msg-dialog-trans-bottom span {
@@ -2095,56 +2108,6 @@ a.a-phone-set-bg span {
     position: relative
 }
 
-.app-list {
-    display: flex;
-    padding: 0 10px;
-    flex-wrap: wrap
-}
-
-.app-list a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-right: 50px;
-    margin-top: 30px
-}
-
-.app-list a i {
-    width: 100px;
-    height: 100px;
-    background: #00d40d;
-    border-radius: 10px;
-    background-image: url(../images/icon-msg.png);
-    background-repeat: no-repeat;
-    background-size: 60px;
-    background-position: center
-}
-
-.app-list a span {
-    margin-top: 10px;
-    color: #666;
-    font-size: 12px
-}
-
-.app-list a i.alipay-chat {
-    background-image: url(../images/icon-alipay-chat.png);
-    background-color: #0ae
-}
-
-.app-list-wrap {
-    padding-bottom: 40px
-}
-
-.app-list-wrap h3 {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 0 10px;
-    border-bottom: 1px #f1f1f1 solid;
-    padding-bottom: 15px;
-    margin-top: 30px
-}
-
 .modal-lightbox.lightbox-with-caption .caption {
     background: rgba(0, 0, 0, .6);
     opacity: 1
@@ -2189,15 +2152,4 @@ a.a-phone-set-bg span {
         display: none
     }
 
-    .app-list a i {
-        width: 60px;
-        height: 60px;
-        border-radius: 3px;
-        background-size: 45px
-    }
-
-    .app-list a {
-        margin-right: 0;
-        width: 33.333%
-    }
 }

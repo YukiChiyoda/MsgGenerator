@@ -5216,26 +5216,26 @@
                     dialogs: [{
                         id: "dialog-1",
                         type: "text",
-                        content: "hello，world",
+                        content: "你好，我是你的仿真好友。",
                         is_me: !1,
                         user_id: "user-2"
                     },
                         {
                             id: "dialog-2",
                             type: "text",
-                            content: "hello，world!!!",
+                            content: "Hello, it's ME!!!",
                             is_me: !0,
                             user_id: "user-1"
                         },
                         {
                             id: "dialog-3",
                             type: "notice",
-                            content: "2019年5月20日 下午4:20"
+                            content: "2023年8月16日 下午5:20"
                         },
                         {
                             id: "dialog-4",
                             type: "transfer",
-                            money: "1.00",
+                            money: "188.00",
                             is_me: !0,
                             user_id: "user-1",
                             is_get: !1,
@@ -5244,7 +5244,7 @@
                         {
                             id: "dialog-5",
                             type: "transfer",
-                            money: "1.00",
+                            money: "188.00",
                             user_id: "user-2",
                             is_get: !0,
                             remark: "已领取"
