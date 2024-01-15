@@ -5184,7 +5184,7 @@
                 data: {
                     setting: {
                         message: 1,
-                        title: "Me",
+                        title: "User",
                         dialog_content: "Hello, world!",
                         dialog_money: 88,
                         dialog_voice: 2,
